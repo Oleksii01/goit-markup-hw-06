@@ -645,7 +645,6 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 }
 .modal{
   position: absolute;
-  padding-top: 72px;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%)scale(1);
@@ -655,8 +654,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  padding-top: 72px;
-  padding: 24px;
+  padding: 72px 24px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden .modal {
@@ -692,5 +690,27 @@ pointer-events: none;
 }
 .modal-close-icon{
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+}
+.form-field-wrapper,{
+  display: block;
+margin-bottom: 26px;
+}
+.form-input{
+  width: 360px;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+padding-left: 38px;
+}
+.contact-checkbox{
+  display: block;
+  margin-bottom: 16px;
+}
+.form-desc{
+display: block;
+  font-style: normal;
+line-height: 14px;
+letter-spacing: 0.01em;
+color: var(--border-radius);
+margin-bottom: 4px;
 }

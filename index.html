@@ -267,12 +267,40 @@
   </div>
 </div>
 </footer>
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop" data-modal>
   <div class="modal"><button type="button" class="model-close-btn" data-modal-close>
     <svg class="modal-close-icon" width="8" height="8">
       <use href="./images/icons.svg#btn"></use>
     </svg>
-  </button></div>
+  </button>
+<p>Leave your contacts and we will call you back</p>
+  <form class="contact-form">
+  <label class="form-field-wrapper">
+    <span class="form-desc">Name</span>
+  <input class="form-input" type="text" name="user_first_name" required pattern="[a-zA-Zа-яА-ЯіІїЇґҐ'єЄ]+"/>
+  </label>
+  <label class="form-field-wrapper">
+    <span class="form-desc">Phone</span>
+  <input class="form-input" type="tel" name="user_tel" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+  title="xxx-xxx-xx-xx"
+  />
+  </label>
+  <label class="form-field-wrapper">
+    <span class="form-desc">Email</span>
+  <input class="form-input" type="email" name="user_email" required/>
+  </label>
+  <label class="form-field-wrapper">
+    <span class="form-desc">Comment</span>
+    <textarea class="form-comment" name="user_comment" placeholder="Text input"
+    ></textarea>
+  </label>
+  <label class="form-checkbox">
+    <input class="contact-checkbox" type="checkbox" name="user_policy" required/>
+    I accept the terms and conditions of the Privacy Policy
+  </label>
+  <button type="submit" class="form-submit">Send</button>
+</form>
+</div>
 </div>
 <script src="./js/modal.js"></script>
 </body>
