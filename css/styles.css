@@ -691,7 +691,7 @@ pointer-events: none;
 .modal-close-icon{
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-field-wrapper,{
+.form-field-wrapper{
 display: block;
 margin-bottom: 26px;
 }
@@ -700,7 +700,11 @@ margin-bottom: 26px;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-padding-left: 38px;
+  padding-left: 38px;
+}
+.form-input:focus{
+  outline: none;
+  border-color: var(--blue-text-color);
 }
 .contact-checkbox{
   display: block;
@@ -715,12 +719,75 @@ color: var(--border-radius);
 margin-bottom: 4px;
 }
 .form-imput-icon{
-  position: absolute;
-top: 0;
-left: 0;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+left: 16px;
 display: block;
 }
 .contact-from-wrapper{
   position: relative;
 display: block;
+}
+.form-input:focus + .form-imput-icon{
+  fill: var(--blue-text-color);
+}
+.form-comment{
+  width: 360px;
+  height: 120px;
+  resize: none;
+  line-height: 1.2;
+  padding: 8px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+}
+.contact-checkbox{
+  appearance: none;
+position: absolute;
+}
+.form-comment:focus{
+  outline: none;
+  border-color: var(--blue-text-color);
+} 
+.form-own-checkbox{
+  border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 3px;
+margin-right: 8px;
+}
+.contact-checkbox:checked + .form-own-checkbox > .form-checkmark-icon{
+opacity: 1;
+}
+
+.form-checkmark-icon{
+  opacity: 0;
+}
+.form-checkbox{
+  display: flex;
+  align-items: center;
+  font: size 12px; ;
+}
+.form-submit{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto",sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: var(--blue-text-color);
+  background: var(--team-section-color);
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid var(--white-btn-color);
+  padding: 12px 24px;
+  transition: var(--transition-one),var(--transition-two),var(--transition-three),var(--transition-four);
+}
+
+.form-submit:hover,
+.form-submit:focus{
+color: var(--main-background-color);
+background-color: var(--hover-focus-color);
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 1px 0px rgba(0, 0, 0, 0.08),0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+border: 1px solid transparent
 }

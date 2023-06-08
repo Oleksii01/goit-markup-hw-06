@@ -69,6 +69,15 @@
     </symbol>
   </defs>
   </svg>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="check" viewBox="0 0 32 32">
+      <path fill="#404bbf" d="M4 1h24a3 3 0 0 1 3 3v24a3 3 0 0 1-3 3H4a3 3 0 0 1-3-3V4a3 3 0 0 1 3-3z" style="fill:var(--color1, #404bbf)"/>
+      <path fill="#f4f4fd" d="M22.892 8.51A1.834 1.834 0 0 1 26 9.8v.001l.001.047c0 .482-.184.922-.486 1.252l.001-.001-9.788 12.308a1.836 1.836 0 0 1-2.051.454l.012.004a1.855 1.855 0 0 1-.612-.408l-6.492-6.526a1.846 1.846 0 0 1-.448-2.06l-.005.012a1.853 1.853 0 0 1 1.715-1.156h.026-.001c.519.01.984.234 1.311.587l.001.001 5.138 5.164 8.52-10.916a.516.516 0 0 1 .05-.054h-.002z" style="fill:var(--color2, #f4f4fd)"/>
+      <path fill="none" stroke="#404bbf" stroke-width="2" d="M4 1h24a3 3 0 0 1 3 3v24a3 3 0 0 1-3 3H4a3 3 0 0 1-3-3V4a3 3 0 0 1 3-3z" style="stroke:var(--color1, #404bbf)"/>
+    </symbol>
+  </defs>
+</svg>
 </defs>
 </svg>
  
