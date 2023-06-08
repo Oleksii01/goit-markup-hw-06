@@ -688,6 +688,13 @@ opacity: 0;
 visibility: hidden;
 pointer-events: none;
 }
+.form-text-p{
+  font-family: 'Roboto';
+  font-weight: 500;
+font-size: 16px;
+line-height: 1,5;
+  padding: 72px 24px;
+}
 .modal-close-icon{
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -768,6 +775,8 @@ opacity: 1;
 }
 .form-submit{
   display: block;
+  width: 169pxpx;
+  height: 56px;
   margin-left: auto;
   margin-right: auto;
   font-family: "Roboto",sans-serif;
@@ -775,8 +784,8 @@ opacity: 1;
   line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.04em;
-  color: var(--blue-text-color);
-  background: var(--team-section-color);
+  color: var(--main-background-color);
+  background: var(--blue-text-color);
   cursor: pointer;
   border-radius: 4px;
   border: 1px solid var(--white-btn-color);
@@ -786,8 +795,6 @@ opacity: 1;
 
 .form-submit:hover,
 .form-submit:focus{
-color: var(--main-background-color);
-background-color: var(--hover-focus-color);
 box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 1px 0px rgba(0, 0, 0, 0.08),0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 border: 1px solid transparent
 }
