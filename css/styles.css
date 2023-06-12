@@ -718,7 +718,7 @@ margin-bottom: 8px;
   display: block;
   margin-bottom: 16px;
 }
-.form-desc{
+.modal-desc{
 display: block;
   font-style: normal;
 line-height: 14px;
@@ -733,7 +733,7 @@ transform: translateY(-50%);
 left: 16px;
 display: block;
 }
-.contact-from-wrapper{
+.modal-field{
   position: relative;
 display: block;
 }
