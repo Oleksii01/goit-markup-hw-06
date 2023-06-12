@@ -286,45 +286,50 @@
   </button>
 <h3 class="form-text-p">Leave your contacts and we will call you back</h3>
   <form class="contact-form">
-  <label class="form-field-wrapper">
-    <span class="form-desc">Name</span>
-  <span class="contact-from-wrapper"><input class="form-input" type="text" name="user_first_name" required pattern="[a-zA-Zа-яА-ЯіІїЇґҐ'єЄ]+"/>
-  <svg class="form-imput-icon" width="18" height="18">
-    <use class="form-icon" href="./images/icons.svg#men"></use>
-  </svg>
-</span>
-</label>
-  <label class="form-field-wrapper">
-    <span class="form-desc">Phone</span>
-  <span class="contact-from-wrapper">
-    <input class="form-input" type="tel" name="user_tel" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-    title="xxx-xxx-xx-xx"
-    />
-  <svg class="form-imput-icon" width="18" height="24">
-    <use class="form-icon" href="./images/icons.svg#tel"></use>
-  </svg>
-</span>
-</label>
-  <label class="form-field-wrapper">
-    <span class="form-desc">Email</span>
-  <span class="contact-from-wrapper"><input class="form-input" type="email" name="user_email" required/>
-  <svg class="form-imput-icon" width="18" height="24">
-    <use class="form-icon" href="./images/icons.svg#mail"></use>
-  </svg>
-</span>
-</label>
-  <label class="form-field-wrapper">
-    <span class="form-desc">Comment</span>
-    <textarea class="form-comment" name="user_comment" placeholder="Text input"
-    ></textarea>
-  </label>
-  <label class="form-checkbox">
-    <input class="contact-checkbox" type="checkbox" name="user_policy" required/>
-    <svg class="form-own-checkbox" width="16" height="16">
-      <use class="form-checkmark-icon" href="./images/icons.svg#check"></use>
-    </svg>
-    I accept the terms and conditions of the Privacy Policy
-  </label>
+  <div class="modal-field-up">
+    <div class="modal-field">
+      <label class="form-field-wrapper" for="user-name">Name</label>
+      <div class="modal-desc">
+        <input class="form-input" type="text" id="user-name" name="user_first_name" required pattern="[a-zA-Zа-яА-ЯіІїЇґҐ'єЄ]+"/>
+        <svg class="form-imput-icon" width="18" height="24">
+          <use class="form-icon" href="./images/icons.svg#men"></use>
+        </svg>
+    </div>
+    </div>
+    <div class="modal-field">
+      <label class="form-field-wrapper" for="user-phone">Phone</label>
+        <div class="modal-desc">
+          <input class="form-input" type="tel" id="user-phone" name="user_tel" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          title="xxx-xxx-xx-xx"
+          />
+          <svg class="form-imput-icon" width="18" height="24">
+          <use class="form-icon" href="./images/icons.svg#tel"></use>
+        </svg>
+        </div>
+      </div>
+    <div class="modal-field">
+      <label class="form-field-wrapper" for="user-email">Email</label>
+        <div class="modal-desc">
+          <input class="form-input" type="email" id="user-email" name="user_email" required/>
+        <svg class="form-imput-icon" width="18" height="24">
+          <use class="form-icon" href="./images/icons.svg#mail"></use>
+        </svg>
+        </div>
+    </div>
+    <div class="textarea-field modal-field ">
+      <label class="form-field-wrapper" for="user-comment">Comment</label>
+        <div class="modal-desc">
+          <textarea class="form-comment" id="user-comment" name="user_comment" placeholder="Text input"
+          ></textarea>
+        <label class="form-checkbox"></label>
+          <input class="contact-checkbox" type="checkbox" name="user_policy" required/>
+          <svg class="form-own-checkbox" width="16" height="16">
+            <use class="form-checkmark-icon" href="./images/icons.svg#check"></use>
+          </svg>
+        </div>
+    </div>
+      <div class="modal-field check-field">I accept the terms and conditions of the Privacy Policy</div>
+    </div>
   <button type="submit" class="form-submit">Send</button>
 </form>
 </div>
