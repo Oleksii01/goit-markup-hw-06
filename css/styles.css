@@ -690,6 +690,7 @@ pointer-events: none;
 }
 .form-text-p{
 font-weight: 500;
+font-size: 16px;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
@@ -707,7 +708,6 @@ padding-top: 8px;
 padding-bottom: 4px;
 letter-spacing: 0.04em;
 color: var(--border-radius);
-
 }
 .form-input{
   width: 360px;
@@ -715,6 +715,7 @@ color: var(--border-radius);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 38px;
+  background: transparent;
 }
 .form-input:focus{
   outline: none;
@@ -754,6 +755,7 @@ display: block;
   padding: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  background: transparent;
 }
 .contact-checkbox{
   appearance: none;
@@ -806,7 +808,6 @@ border: 1px solid transparent
 }
 .contact-form-end{
   display: flex;
-  gap: 24px;
 }
 .form-input-end{
   width: 264px;
@@ -822,7 +823,7 @@ border: 1px solid transparent
   color: var(--main-background-color);
 }
 .form-input-end::placeholder{
-   color: var(--main-background-color);
+  color: var(--main-background-color);
 }
 .form-field-end{
 border: 1px solid #FFFFFF;
