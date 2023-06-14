@@ -315,17 +315,15 @@
         </div>
     </div>
         <div class="textarea-field modal-field ">
-        <label class="form-field-wrapper" for="user-comment">Comment</label>
-          <span class="modal-desc">
           <textarea class="form-comment" id="user-comment" name="user_comment" placeholder="Text input"
           ></textarea>
-        </span>
-    </div>
+          <label class="form-field-wrapper" for="user-comment">Comment</label>
+        </div>
       <div class="modal-privacy">
-    <input class="contact-checkbox" id="user-privacy" type="checkbox" name="user_policy" required/>
+    <input  visually-hidden class="contact-checkbox" id="user-privacy" type="checkbox" name="user-privacy" value="true" required/>
   <label class="form-field-wrapper" for="user-privacy">
   <span class="check-emply">
-    <svg class="form-own-checkbox" width="16" height="16">
+    <svg class="form-own-checkbox" width="10" height="8">
               <use class="form-checkmark-icon" href="./images/icons.svg#check"></use>
             </svg>
   </span>
