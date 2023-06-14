@@ -278,10 +278,14 @@
  </footer>
  <div class="backdrop is-hidden" data-modal>
   <div class="modal">
-<p class="form-text-p">Leave your contacts and we will call you back</p>
+    <button type="button" class="model-close-btn" data-modal-close>
+      <svg class="modal-close-icon" width="8" height="8">
+        <use href="./images/icons.svg#btn"></use>
+      </svg>
+    </button>
+    <p class="form-text-p">Leave your contacts and we will call you back</p>
   <form class="contact-form">
-  <div class="modal-field-up">
-    <div class="modal-field">
+  <div class="modal-field">
       <label class="form-field-wrapper" for="user-name">Name</label>
       <div class="modal-desc">
         <input class="form-input" type="text" id="user-name" name="user-name" required pattern="[a-zA-Zа-яА-ЯіІїЇґҐ'єЄ]+"/>
@@ -317,7 +321,7 @@
           ></textarea>
         </span>
     </div>
-      <div>
+      <div class="modal-privacy">
     <input class="contact-checkbox" id="user-privacy" type="checkbox" name="user_policy" required/>
   <label class="form-field-wrapper" for="user-privacy">
   <span class="check-emply">
@@ -328,11 +332,7 @@
   I accept the terms and conditions of the 
     <a class="modal-field check-field" href="">Privacy Policy</a></label>
 </div>
-<button type="button" class="model-close-btn" data-modal-close>
-  <svg class="modal-close-icon" width="8" height="8">
-    <use href="./images/icons.svg#btn"></use>
-  </svg>
-</button><button type="submit" class="form-submit">Send</button>
+<button type="submit" class="form-submit">Send</button>
 </form>
 </div>
 </div>
