@@ -782,9 +782,9 @@ border-color: var(--hover-focus-color);
   opacity: 0;
 }
 .form-checkbox{
+  font-size: 12px;
   display: flex;
   align-items: center;
-  font size :12px;
 }
 .form-submit{
   display: block;
