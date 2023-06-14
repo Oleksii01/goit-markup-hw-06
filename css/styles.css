@@ -813,6 +813,7 @@ border: 1px solid transparent
 }
 .contact-form-end{
   display: flex;
+  gap: 24px;
 }
 .form-input-end{
   width: 264px;
@@ -826,6 +827,8 @@ border: 1px solid transparent
   background: var(--title-color);
   border-color: transparent;
   color: var(--main-background-color);
+  border-color: transparent;
+  border: 1px solid var(--main-background-color);
 }
 .form-input-end::placeholder{
   color: var(--main-background-color);
