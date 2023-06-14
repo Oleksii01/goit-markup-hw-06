@@ -765,7 +765,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal-field{
 position: relative;
 display: block;
-margin-bottom: 16px;
+margin-bottom: 8px;
 }
 .form-input:focus + .form-imput-icon{
   fill: var(--blue-text-color);
@@ -777,7 +777,6 @@ margin-bottom: 16px;
   letter-spacing: 0.04em; 
   line-height: 1.17;
   resize: none;
-  line-height: 1.2;
   padding: 8px 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
