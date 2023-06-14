@@ -771,8 +771,12 @@ position: absolute;
 border-radius: 3px;
 margin-right: 8px;
 }
-.contact-checkbox:checked + .form-own-checkbox > .form-checkmark-icon{
+.contact-checkbox:checked + .form-field-wrapper + .check-emply > .form-checkmark-icon {
 opacity: 1;
+background-color: var(--hover-focus-color);
+border: none;
+fill: var(--main-background-color);
+border-color: var(--hover-focus-color);
 }
 .form-checkmark-icon{
   opacity: 0;
@@ -780,7 +784,7 @@ opacity: 1;
 .form-checkbox{
   display: flex;
   align-items: center;
-  font: size 12px; ;
+  font size :12px;
 }
 .form-submit{
   display: block;

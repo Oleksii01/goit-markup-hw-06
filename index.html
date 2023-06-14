@@ -314,21 +314,24 @@
         </svg>
         </div>
     </div>
-    <div class="textarea-field modal-field ">
-      <input class="contact-checkbox" id="user-privacy" type="checkbox" name="user_policy" required/>
-      <label class="form-field-wrapper" for="user-privacy">Comment
-        <span class="modal-desc">
+        <div class="textarea-field modal-field ">
+        <label class="form-field-wrapper" for="user-comment">Comment</label>
+          <span class="modal-desc">
           <textarea class="form-comment" id="user-comment" name="user_comment" placeholder="Text input"
           ></textarea>
-        <label class="form-checkbox"></label>
-          <svg class="form-own-checkbox" width="16" height="16">
-            <use class="form-checkmark-icon" href="./images/icons.svg#check"></use>
-          </svg>
         </span>
     </div>
-    I accept the terms and conditions of the 
+      <div>
+    <input class="contact-checkbox" id="user-privacy" type="checkbox" name="user_policy" required/>
+  <label class="form-field-wrapper" for="user-privacy">
+  <span class="check-emply">
+    <svg class="form-own-checkbox" width="16" height="16">
+              <use class="form-checkmark-icon" href="./images/icons.svg#check"></use>
+            </svg>
+  </span>
+  I accept the terms and conditions of the 
     <a class="modal-field check-field" href="">Privacy Policy</a></label>
-    </div>
+</div>
   <button type="submit" class="form-submit">Send</button>
 </form>
 </div>
