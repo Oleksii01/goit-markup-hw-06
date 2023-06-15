@@ -773,7 +773,7 @@ margin-bottom: 8px;
   border-radius: 4px;
   background: transparent;
   color: rgba(46, 47, 66, 0.4); ;
- transition: var(--transition-three);
+  transition: var(--transition-three);
   outline: transparent;
 }
 .contact-checkbox{
