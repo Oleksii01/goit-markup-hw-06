@@ -588,9 +588,6 @@ border-color: var(--hover-focus-color);
 .section-no-icons{
   padding: 120px 0 120px;
 }
-/* .title-text{
-line: height 1.1;
-} */
 .search{
   width: calc((100% - 120px) / 6); 
 }
